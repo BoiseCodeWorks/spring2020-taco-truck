@@ -33,8 +33,7 @@ function orderFood(foodName) {
 
 function drawFood() {
   orderElem.innerHTML = (`
-    <h3>You ordered this: ${foods[foodName].name}</h3>
-    <h4> with ingredients: ${foods[foodName].ingredients}</h4>
-    <h4> with spice level: ${foods[foodName].spiciness}</h4>
+    <h3>Your ${food.name} is ready!</h3>
+   
   `);
 }
