@@ -17,7 +17,7 @@ let foods = {
   }
 }
 function orderFood(foodName) {
-
-  console.log(`You are in orderFood ${foods.name}`);
+  document.getElementById('order-list')
+  console.log(`You are in orderFood ${foods[foodName].name}`);
 
 }
