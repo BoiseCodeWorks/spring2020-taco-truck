@@ -1,6 +1,23 @@
 //order food
-function orderFood(foodItem) {
+let foods = {
+  taco: {
+    name: "Taco",
+    ingredients: "meat, cheese, lettuce",
+    spiciness: "very"
+  },
+  burrito: {
+    name: "Burrito",
+    ingredients: "meat, cheese, lettuce",
+    spiciness: "very"
+  },
+  enchilada: {
+    name: "Enchilada",
+    ingredients: "meat, cheese, lettuce",
+    spiciness: "very"
+  }
+}
+function orderFood(foodName) {
 
-  console.log(`You are in orderFood ${foodItem}`);
+  console.log(`You are in orderFood ${foods.name}`);
 
 }
