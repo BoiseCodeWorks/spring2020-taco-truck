@@ -16,8 +16,16 @@ let foods = {
     spiciness: "very"
   }
 }
+
+let orderElem = document.getElementById('order-list')
+
 function orderFood(foodName) {
-  document.getElementById('order-list')
+
+  orderElem.textContent = (`
+    <h3>You ordered this: ${foods[foodName].name}</h3>
+    
+  `);
+
   console.log(`You are in orderFood ${foods[foodName].name}`);
 
 }
